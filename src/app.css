@@ -1,3 +1,15 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+html, body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+    background-color: #12141c;
+    color: white;
+}
+
+.timer {
+    font-family: "Source Code Pro", monospace;
+}

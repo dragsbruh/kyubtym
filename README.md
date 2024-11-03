@@ -1,38 +1,28 @@
-# sv
+# Kyubtym
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## What is this?
 
-## Creating a project
+Kyubtym is a really simple opinionated featureless cube timer.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Thats it. Nothing more, nothing less.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## (Planned) Features
 
-# create a new project in my-app
-npx sv create my-app
-```
+- [ ] Time history and lifetime statistics
+- [ ] Displays the time in a nice format
+- [ ] Good scrambles
+- [ ] Ambience
+- [x] Everything stored locally (nothing is stored yet)
+- [ ] aI fUnCtIoNaLiTy (just kidding, probably shows possible solutions after timer stops, or before maybe)
+- [ ] Nice UI
+- [ ] Records your sessions (webcam, \*optional)
 
-## Developing
+## Notes
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+This is a personal project, so it might not be the best code. The web app does not have all the features, like recording. Theres a desktop app planned for that.
 
-```bash
-npm run dev
+## Demo (In development)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+![Homepage screenshot](./docs/demo-dev.png)
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Do note its still work in progress
